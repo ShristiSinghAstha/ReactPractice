@@ -59,12 +59,29 @@
 
 import React from "react";
 import Greeting from "./Greetings";
+import Timer from "./Timer";
+import ShowHide from "./ShowHide";
+import ShoppingCart from "./ShoppingCart";
+import ProductFilter from "./ProductFilter";
+import ThemeSwitcher from "./ThemeSwitcher";
+import UserStatus from "./UserStatus";
+// function App(){
+//   const products  = [
+//     { id:1, name:"Laptop", category:"Electronics"},
+//     { id:2, name:"Mobile", category:"Electronics"},
+//     { id:3, name:"Shirt", category:"Clothing"},
+//     { id:4, name:"Jeans", category:"Clothing"},
+
+//   ];
+//   return <ProductFilter products={products} />;
+
+// }
 
 function App(){
   return(
     <div>
-      <Greeting />
+      <UserStatus />
     </div>
-  );
+  )
 }
 export default App;
