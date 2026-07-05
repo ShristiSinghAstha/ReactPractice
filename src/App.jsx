@@ -65,6 +65,10 @@ import ShoppingCart from "./ShoppingCart";
 import ProductFilter from "./ProductFilter";
 import ThemeSwitcher from "./ThemeSwitcher";
 import UserStatus from "./UserStatus";
+import Sum from "./Sum";
+import RouteAbout from "./RouteAbout";
+import Palindrome from "./Palindrome";
+import TodoList from "./Todolist";
 // function App(){
 //   const products  = [
 //     { id:1, name:"Laptop", category:"Electronics"},
@@ -80,7 +84,7 @@ import UserStatus from "./UserStatus";
 function App(){
   return(
     <div>
-      <UserStatus />
+      <TodoList />
     </div>
   )
 }
